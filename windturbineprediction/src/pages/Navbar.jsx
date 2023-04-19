@@ -12,6 +12,7 @@ const Navbar = () => {
         <span className='font-poppins font-semibold ss:text-2xl text-base text-white'>Wind Turbine Power Prediction</span>
         <ul className='list-none sm:flex hidden justify-end items-center flex-1 text-white'>
             <Link to={"/"} className='flex p-5 hover:scale-105'>Home</Link>
+            <Link to={"/dashboard"} className='flex p-5 hover:scale-105'>DashBoard</Link>
             <Link to={"/about"} className='flex p-5 hover:scale-105'>About</Link>
             <Link to={"/predictlocation" }className='flex p-5 hover:scale-105'>Predict Location</Link>
             <Link to={"/predictmanual"} className='flex p-5 hover:scale-105'>Predict Manual</Link>

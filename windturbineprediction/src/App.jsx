@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
-import { Home,About,PredictLocation,PredictManual,CompareLocations, Navbar } from './pages';
+import { Home,About,PredictLocation,PredictManual,CompareLocations, Navbar, BarGraph } from './pages';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <div className='flex'>
         <Routes>
           <Route path='/' element={<Home/>}/> 
+          <Route path='/dashboard' element={<BarGraph/>}/> 
           <Route path='/about' element={<About/>}/> 
           <Route path='/predictlocation' element={<PredictLocation/>}/> 
           <Route path='/predictmanual' element={<PredictManual/>}/> 
